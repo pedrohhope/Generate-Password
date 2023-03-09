@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    gap: 1.875rem;
+}
+
+.generate-container{
+    display: flex;
+    height: 3.125rem;
+}
+
+.generate-container input{
+    width: 15.625rem;
+    padding-left: 0.625rem;
+}
+
+.generate-container .generate{
+    cursor: pointer;
+    width: 4.375rem;
+    background-color: #005CC8;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.generate-container .generate:hover{
+    background-color: #026de7;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container input{
+    width: 18.75rem;
+}
+
+#copypassword{
+   position: absolute;
+   left: 60px;
+   bottom: -20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+#copypasswordactive{
+    position: absolute;
+    left: 57px;
+    bottom: -20px;
+    width: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+@media (max-width: 320px) {
+    .container h1{
+        font-size: 7vw;
+    }
+
+    .generate-container input{
+        width: 10rem;
+    }
+
+
+    .input-container input{
+        width: 10rem;
+    }
+}

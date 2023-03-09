@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>GERADOR DE SENHAS</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+        <div>
+            <h1>GERADOR DE SENHA</h1>
+        </div>
+        <div class="generate-container">
+            <input disabled></input>
+            <img src="copyicon.png" alt="" id="copypassword" class="hide">
+            <img src="verificed.png" alt="" id="copypasswordactive" class="hide">
+            <button class="generate">GERAR</button>
+        </div>
+        <div class="input-container">
+            <input type="range" min="5" max="25" value="15" class="range-number">
+            <span><span id="value">15</span> caracteres</span>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
