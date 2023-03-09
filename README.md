@@ -1,5 +1,5 @@
 # Generate-Password
-Para testar meus conhecimentos em JavaScript eu fiz esse gerador de senha. Aonde ele gera senhas completamente aleatórias, com algumas funcioalidades extras!!!!]
+Para testar meus conhecimentos em JavaScript eu fiz esse gerador de senha. Aonde ele gera senhas completamente aleatórias, com algumas funcioalidades extras!!!!
 
 
 <h1>Welcome! 👋</h1>
@@ -20,7 +20,3 @@ Para testar meus conhecimentos em JavaScript eu fiz esse gerador de senha. Aonde
 <li>Github
 <li>Node.js
 </ul>
- 
- 
- <p>Ideia fornecida por: [Frontend Mentor]</p>
-
